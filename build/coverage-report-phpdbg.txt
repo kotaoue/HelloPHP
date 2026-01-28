@@ -1,19 +1,15 @@
-PHPUnit 7.5.20 by Sebastian Bergmann and contributors.
+PHPUnit 11.5.50 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.5.2
+Configuration: /Users/kotaoue/ghq/github.com/kotaoue/investigateCoverageOfConditionalOperator/phpunit.xml
 
 .                                                                   1 / 1 (100%)
 
-Time: 77 ms, Memory: 6.00 MB
+Time: 00:00.004, Memory: 10.00 MB
 
-OK (1 test, 2 assertions)
+There was 1 PHPUnit test runner warning:
 
+1) No code coverage driver available
 
-Code Coverage Report:   
-  2020-06-12 23:19:55   
-                        
- Summary:               
-  Classes: 100.00% (1/1)
-  Methods: 100.00% (1/1)
-  Lines:   100.00% (3/3)
-
-Target
-  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  3/  3)
+OK, but there were issues!
+Tests: 1, Assertions: 2, PHPUnit Warnings: 1, PHPUnit Deprecations: 1.
