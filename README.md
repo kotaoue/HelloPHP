@@ -1,6 +1,11 @@
 # investigateCoverageOfConditionalOperator
 Investigate coverage of conditional operator.
 
+## Init
+```shell
+composer install
+```
+
 ## Result
 *
   ```ShellSession
