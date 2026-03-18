@@ -1,33 +1,33 @@
 # Laravel 13 Hello World
 
-Laravel 13 の Hello World サンプルです。Docker を使って localhost:8080 で起動します。
+A Laravel 13 Hello World sample using Docker, served on localhost:8080.
 
-## 必要要件
+## Requirements
 
 - Docker
 - Docker Compose
 
-## 起動方法
+## Getting Started
 
 ```bash
-# このディレクトリに移動
+# Navigate to this directory
 cd laravel/laravel13
 
-# Docker イメージをビルドしてコンテナを起動
+# Build the image and start the container
 docker compose up --build
 ```
 
-ビルド完了後、ブラウザで http://localhost:8080 にアクセスすると Laravel の Welcome ページが表示されます。
+Once the build is complete, open http://localhost:8080 in your browser to see the Laravel welcome page.
 
-## 停止方法
+## Stopping
 
 ```bash
 docker compose down
 ```
 
-## 構成
+## File Structure
 
-| ファイル | 説明 |
+| File | Description |
 |---|---|
-| `Dockerfile` | PHP 8.3 CLI + Composer で Laravel 13 をインストールし、`php artisan serve` で起動 |
-| `docker-compose.yml` | コンテナのポートマッピング (8080:8080) を定義 |
+| `Dockerfile` | PHP 8.3 CLI + Composer, installs Laravel 13 and serves it via `php artisan serve` |
+| `docker-compose.yml` | Defines the container port mapping (8080:8080) |
