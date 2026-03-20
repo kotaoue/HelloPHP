@@ -7,11 +7,18 @@ A Laravel 13 Hello World sample using Docker, served on localhost:8080.
 - Docker
 - Docker Compose
 
+```bash
+brew install docker
+brew install docker-compose
+brew install colima
+colima start
+```
+
 ## Getting Started
 
 ```bash
 cd laravel/laravel13
-docker compose up --build
+docker-compose up --build
 ```
 
 Once the build is complete, open [localhost:8080](http://localhost:8080) in your browser to see the Laravel welcome page.
@@ -19,7 +26,7 @@ Once the build is complete, open [localhost:8080](http://localhost:8080) in your
 ## Stopping
 
 ```bash
-docker compose down
+docker-compose down
 ```
 
 ## File Structure
