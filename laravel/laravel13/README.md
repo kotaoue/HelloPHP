@@ -10,10 +10,7 @@ A Laravel 13 Hello World sample using Docker, served on localhost:8080.
 ## Getting Started
 
 ```bash
-# Navigate to this directory
 cd laravel/laravel13
-
-# Build the image and start the container
 docker compose up --build
 ```
 
