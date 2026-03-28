@@ -1,0 +1,25 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # Automatically update GitHub Actions
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    assignees:
+      - kotaoue
+
+  # Automatically update Composer dependencies
+  - package-ecosystem: composer
+    directory: /CoverageOfConditionalOperator
+    schedule:
+      interval: weekly
+    assignees:
+      - kotaoue
+
+  - package-ecosystem: composer
+    directory: /phpunit
+    schedule:
+      interval: weekly
+    assignees:
+      - kotaoue
