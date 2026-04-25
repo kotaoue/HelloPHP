@@ -9,7 +9,7 @@ A repository for investigating and experimenting with PHP.
 | [`CoverageOfConditionalOperator`](CoverageOfConditionalOperator/) | Investigate code coverage behaviour of the conditional (ternary) operator using PHPUnit |
 | [`phpunit`](phpunit/) | Study and check the behaviour of PHPUnit |
 | [`UseMemory`](UseMemory/) | Investigate memory usage when using the `use` keyword |
-| [`laravel/laravel13`](laravel/laravel13/) | Laravel 13 Hello World sample using Docker |
+| [`hello_laravel`](hello_laravel/) | Laravel 13 Hello World sample using Docker |
 
 ## Requirements
 

@@ -17,7 +17,7 @@ colima start
 ## Getting Started
 
 ```bash
-cd laravel/laravel13
+cd hello_laravel
 docker-compose up --build
 ```
 
